@@ -1,0 +1,48 @@
+.todoItem {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  margin: 2px;
+  margin-inline: 6px;
+ 
+}
+
+.todoInfos {
+  display: flex;
+  padding: 0px 10px;
+}
+
+.todoContent {
+  padding: 0px 10px;
+}
+
+img {
+  width: 12px;
+  height: 12px;
+}
+
+.completeButton,
+.deleteButton,
+.editButton {
+  border-radius: 5px;
+  border-style: none;
+  margin: 2px;
+  justify-items: center;
+  display: inline-block;
+}
+.completeButton {
+  background: rgb(88, 199, 88);
+}
+.deleteButton {
+  background: rgb(214, 99, 45);
+}
+.editButton {
+  background: rgb(39, 92, 198);
+}
+
+.completed {
+  text-decoration: line-through;
+  opacity: 0.5;
+}

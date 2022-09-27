@@ -1,0 +1,32 @@
+.todoSelect {
+  display: flex;
+  justify-content: center;
+  margin: 2px;
+}
+
+.todoSelectCategory {
+  margin: 2px;
+}
+
+.todoSelectStatus {
+  margin: 2px;
+}
+
+.todoSelect select {
+  padding: 3px;
+  border-radius: 5px;
+}
+
+.todoInput {
+  margin: 4px;
+  border-radius: 5px;
+  padding: 6px;
+  width: 60%;
+  border-color: midnightblue;
+}
+.todoButton {
+  margin: 4px;
+  border-radius: 5px;
+  padding: 6px;
+  border-color: midnightblue;
+}
